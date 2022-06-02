@@ -20,6 +20,7 @@ class LoginResponse {
 class VerifyCodeResponse {
   final bool success;
   final String codeId;
+  final dynamic user;
 
-  VerifyCodeResponse({this.success, this.codeId});
+  VerifyCodeResponse({this.success, this.codeId, this.user});
 }
